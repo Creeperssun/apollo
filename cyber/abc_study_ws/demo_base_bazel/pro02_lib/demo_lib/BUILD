@@ -2,7 +2,7 @@ cc_library(
     name = "hello_great",
     srcs = ["hello_great.cc"],
     hdrs = ["hello_great.h"],
-    visibility = ["//demo_main:__pkg__"]
+    visibility = ["//demo_main:__pkg__"],
 )
 
 cc_binary(

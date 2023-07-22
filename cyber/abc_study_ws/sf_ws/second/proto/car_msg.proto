@@ -1,0 +1,14 @@
+// 定义proto使用的版本
+syntax = "proto2";
+
+//定义包名，在cc文件中调用
+package apollo.cyber.abc_study_ws.sf_ws.second.proto;
+
+//定义一个车的消息，车的型号，车主，车的车牌号,已跑公里数,车速
+message Car{
+    optional string plate = 1; 
+    optional string type = 2;
+    optional string owner = 3;
+    optional uint64 kilometers = 4;
+    optional uint64 speed = 5;
+};
